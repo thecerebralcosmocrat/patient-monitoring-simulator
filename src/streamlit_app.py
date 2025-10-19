@@ -1,4 +1,7 @@
 # inside src/streamlit_app.py
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from src.data_generator import stream_simulation, simulate_multiple_patients
 import streamlit as st
 import pandas as pd
