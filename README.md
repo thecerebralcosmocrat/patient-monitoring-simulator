@@ -29,11 +29,11 @@ A real-time single-patient vital signs monitoring system with intelligent anomal
 
 ## 🚀 Live Demo
 
-[View Live Demo on Streamlit Cloud](https://your-app-url.streamlit.app) *(Update with your actual URL)*
+View Live Demo on [Patient Monitoring Simulator](https://patient-monitoring-simulator.streamlit.app/)
 
 ## 🛠️ Tech Stack
 
-- **Python** 3.8+
+- **Python** 3.13.5
 - **[Streamlit](https://streamlit.io/)** - Web application framework
 - **[Pandas](https://pandas.pydata.org/)** - Data manipulation and analysis
 - **[NumPy](https://numpy.org/)** - Numerical computing
@@ -173,12 +173,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Ankita Sivaramakrishnan**
 - GitHub: [@thecerebralcosmocrat](https://github.com/thecerebralcosmocrat)
 - Repository: [patient-monitoring-simulator](https://github.com/thecerebralcosmocrat/patient-monitoring-simulator)
-
-## 🙏 Acknowledgments
-
-- Inspired by real hospital patient monitoring systems
-- Built as a demonstration of real-time data visualization and clinical decision support systems
-
----
 
 ⭐ **Star this repository if you find it helpful!**
