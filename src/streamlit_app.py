@@ -1,15 +1,22 @@
-# inside src/streamlit_app.py
-import sys, os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
 # src/streamlit_app.py
+import sys
+import os
 import streamlit as st
 import pandas as pd
 import time
 import plotly.graph_objects as go
 
-from src.data_generator import generate_vitals
-from src.anomaly_detector import detect_anomalies, get_hr_diagnosis, get_spo2_diagnosis, get_bp_diagnosis, get_temp_diagnosis
+# Add parent directory to path for imports
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+try:
+    # Try absolute import (works on Streamlit Cloud)
+    from src.data_generator import generate_vitals
+    from src.anomaly_detector import detect_anomalies, get_hr_diagnosis, get_spo2_diagnosis, get_bp_diagnosis, get_temp_diagnosis
+except ImportError:
+    # Fall back to relative import (works locally)
+    from data_generator import generate_vitals
+    from anomaly_detector import detect_anomalies, get_hr_diagnosis, get_spo2_diagnosis, get_bp_diagnosis, get_temp_diagnosis
 
 st.set_page_config(page_title="Patient Monitor Simulator", layout="wide")
 st.title("🏥 Single-Patient Real-Time Monitor Simulator")
