@@ -155,7 +155,6 @@ Contributions, issues, and feature requests are welcome!
 
 ## 📝 Future Enhancements
 
-- [ ] Multiple patient monitoring
 - [ ] Historical data export (CSV/JSON)
 - [ ] Customizable vital sign ranges
 - [ ] Alert sounds for critical conditions
@@ -174,6 +173,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - GitHub: [@thecerebralcosmocrat](https://github.com/thecerebralcosmocrat)
 - Repository: [patient-monitoring-simulator](https://github.com/thecerebralcosmocrat/patient-monitoring-simulator)
 
-___
+--- 
 
 ⭐ **Star this repository if you find it helpful!**
