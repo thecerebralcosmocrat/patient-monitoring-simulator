@@ -174,4 +174,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - GitHub: [@thecerebralcosmocrat](https://github.com/thecerebralcosmocrat)
 - Repository: [patient-monitoring-simulator](https://github.com/thecerebralcosmocrat/patient-monitoring-simulator)
 
+___
+
 ⭐ **Star this repository if you find it helpful!**
